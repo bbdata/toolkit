@@ -7,7 +7,7 @@ module.exports = {
     files: [{
       expand: true,
       cwd: 'assets/', // Look into this directory.
-      src: '*.js', // Scan all javascript that matches this pattern.
+      src: '**/*.js', // Scan all javascript that matches this pattern.
       dest: 'build', // Put the resulting files into this directory.
       ext: '.min.js', // The extension to use.
     }]
